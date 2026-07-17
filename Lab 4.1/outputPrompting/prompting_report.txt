@@ -1,0 +1,214 @@
+LAB 4.1 PART A — PROMPT ENGINEERING
+========================================================================
+
+Model: Qwen/Qwen2.5-1.5B-Instruct
+Device: cuda
+Seed: 42
+Jumlah eksperimen: 12
+
+========================================================================
+EKSPERIMEN 1
+========================================================================
+Kategori    : Classification
+Varian      : Sentiment analysis
+Temperature : None
+Top-p       : None
+
+PROMPT:
+Klasifikasikan sentimen ulasan berikut menjadi salah satu label:
+POSITIF, NETRAL, atau NEGATIF.
+
+Ulasan:
+"Aplikasi pembelajaran ini sangat membantu saya memahami materi,
+tetapi proses membuka halaman awal terkadang cukup lambat."
+
+Jawab dengan format:
+Label: ...
+Alasan: ...
+
+JAWABAN:
+Label: POSITIF
+
+Alasan: Ulasan ini menggambarkan aplikasi pembelajaran sebagai "sangat membantu", yang merupakan kriteria positif dalam klasifikasi sentimen. Meskipun menekankan bahwa proses membuka halaman awal bisa lambat, ini tidak merugikan pengguna secara keseluruhan. Jadi, sentimen
+
+========================================================================
+EKSPERIMEN 2
+========================================================================
+Kategori    : Summarization
+Varian      : One-sentence summary
+Temperature : None
+Top-p       : None
+
+PROMPT:
+Ringkas paragraf berikut menjadi tepat satu kalimat:
+
+Generative AI merupakan cabang kecerdasan buatan yang mampu
+menghasilkan konten baru seperti teks, gambar, audio, video, dan
+model tiga dimensi. Teknologi ini mempelajari pola dalam data
+pelatihan, kemudian menggunakan pola tersebut untuk membentuk
+keluaran baru. Meskipun memiliki banyak manfaat, penggunaannya
+juga menimbulkan tantangan seperti bias, pelanggaran hak cipta,
+misinformasi, dan penyalahgunaan deepfake.
+
+JAWABAN:
+Generative AI adalah teknologi kecerdasan buatan yang menghasilkan konten baru berdasarkan pola dalam data pelatihan, termasuk teks, gambar, audio, video, dan model 3D, dengan potensi besar dalam manfaat seperti inovasi dan efisiensi. Namun, ia juga menghadapi tantangan seperti bias, pelanggaran hak cipta, misinformasi, dan penyalahgunaan deepfake
+
+========================================================================
+EKSPERIMEN 3
+========================================================================
+Kategori    : Style Transfer
+Varian      : Informal to formal
+Temperature : 0.7
+Top-p       : 0.9
+
+PROMPT:
+Ubah pesan informal berikut menjadi bahasa formal untuk dikirim
+kepada dosen:
+
+"Pak, saya belum bisa ngumpulin tugas hari ini karena laptop saya
+tiba-tiba error. Boleh nggak saya kirim besok pagi?"
+
+JAWABAN:
+Pak, saya mohon maaf atas kesalahan tersebut. Saya telah mencoba mengumpulkan tugas hari ini, namun laptop saya menunjukkan masalah yang menghalangi proses pengumpulan data. Mohon dimaafkan jika ada penundaan dalam pengiriman tugas. Terima kasih atas kepedulian Anda.
+
+========================================================================
+EKSPERIMEN 4
+========================================================================
+Kategori    : Temperature
+Varian      : temperature=0.2
+Temperature : 0.2
+Top-p       : 0.9
+
+PROMPT:
+Berikan tiga ide kreatif penerapan Generative AI untuk meningkatkan pembelajaran mahasiswa di kampus.
+
+JAWABAN:
+1. **Pembelajaran Personalisasi**: Generative AI dapat digunakan untuk membuat program yang memahami preferensi individu mahasiswa, seperti gaya belajar, topik tertarik, dan metode belajar yang paling efektif. Ini bisa membantu guru mengarahkan pembelajaran lebih tepat sasaran dan menyesuaikan materi pelajaran berdasarkan kemampuan dan minat masing-masing mahasiswa.
+
+2. **Penilaian Digital**: Generative AI dapat digunakan untuk memberikan feedback real-time kepada mahasiswa dalam bentuk teks, gambar, atau audio. Ini bisa sangat bermanfaat dalam pengembangan keterampilan komunikasi
+
+========================================================================
+EKSPERIMEN 5
+========================================================================
+Kategori    : Temperature
+Varian      : temperature=0.7
+Temperature : 0.7
+Top-p       : 0.9
+
+PROMPT:
+Berikan tiga ide kreatif penerapan Generative AI untuk meningkatkan pembelajaran mahasiswa di kampus.
+
+JAWABAN:
+1. **Pembelajaran Personalisasi**: Generative AI dapat membantu menghasilkan konten belajar yang dinamis berdasarkan kebutuhan individu mahasiswa. Misalnya, menyesuaikan materi pembelajaran berdasarkan prestasi belajar atau minat spesifik mahasiswa.
+
+2. **Sistem Penilaian Automatisasi**: Menggunakan generasi AI, sistem dapat menganalisis tugas dan diskusi mahasiswa untuk memberikan feedback yang lebih tepat dan mendalam. Ini bisa membantu mahasiswa dalam mengembangkan keterampilan analitis dan pengetahuan tentang evaluasi.
+
+3. **Aplikasi Praktik Kerja Digital**:
+
+========================================================================
+EKSPERIMEN 6
+========================================================================
+Kategori    : Temperature
+Varian      : temperature=1.3
+Temperature : 1.3
+Top-p       : 0.9
+
+PROMPT:
+Berikan tiga ide kreatif penerapan Generative AI untuk meningkatkan pembelajaran mahasiswa di kampus.
+
+JAWABAN:
+1. **Inventarisasi Digital**:
+   - Generative AI dapat digunakan untuk menghasilkan contoh-contoh soal pembelajaran matematika atau bahasa, yang melibatkan teka-teki, cerita, skenario percobaan, atau gambar.
+   - Ini membantu membuat materi pelajaran lebih menarik dan berisi dari sisi anak-anak kampus.
+
+2. **Pembentukan Konteks Realitas Dalam Pendidikan**:
+   - Menggunakan AI untuk mencegah kebosanan pada aktivitas belajar kuliah (PKU). Generative AI dapat membuat perangkat lunak berbasis video atau grafik dengan konten berkel
+
+========================================================================
+EKSPERIMEN 7
+========================================================================
+Kategori    : Top-p
+Varian      : top_p=0.5
+Temperature : 0.8
+Top-p       : 0.5
+
+PROMPT:
+Tuliskan paragraf pendek tentang masa depan kecerdasan buatan dalam pendidikan.
+
+JAWABAN:
+Masa depan kecerdasan buatan dalam pendidikan akan menjadi semakin beragam dan efektif. Dengan kemajuan teknologi, sistem pembelajaran AI akan dapat menyesuaikan diri dengan individu siswa, memberikan pengalaman belajar yang lebih interaktif dan personalisasi yang tinggi. Ini akan membantu meningkatkan kualitas pendidikan secara keseluruhan, memfasilitasi pembelajaran yang lebih efisien dan mengurangi kebutuhan untuk guru yang sebelumnya sangat besar. Selain itu, AI juga akan mampu mengidentifikasi potensi siswa yang tidak terlalu aktif atau memiliki masalah dengan bel
+
+========================================================================
+EKSPERIMEN 8
+========================================================================
+Kategori    : Top-p
+Varian      : top_p=0.8
+Temperature : 0.8
+Top-p       : 0.8
+
+PROMPT:
+Tuliskan paragraf pendek tentang masa depan kecerdasan buatan dalam pendidikan.
+
+JAWABAN:
+Masa depan kecerdasan buatan dalam pendidikan akan menjadi sangat beragam dan berpotensi besar. Dengan kemampuan memahami dan menangani data dengan cepat dan akurat, teknologi ini dapat membantu guru dan siswa dalam mengakses informasi lebih luas dan cepat. Kecerdasan buatan juga mampu merespons perubahan belajar dan pembelajaran, seperti penggunaan media online dan interaktif. Namun, juga harus diwaspadai bahwa penggunaan teknologi ini haruslah seimbang agar tidak merusak kualitas pembelajaran tradisional.
+
+========================================================================
+EKSPERIMEN 9
+========================================================================
+Kategori    : Top-p
+Varian      : top_p=0.95
+Temperature : 0.8
+Top-p       : 0.95
+
+PROMPT:
+Tuliskan paragraf pendek tentang masa depan kecerdasan buatan dalam pendidikan.
+
+JAWABAN:
+Masa depan kecerdasan buatan dalam pendidikan akan menjadi sangat beragam dan berpotensi besar. Dengan pengembangan teknologi AI terus maju, sistem pembelajaran berbasis AI akan memungkinkan lebih banyak anak-anak untuk belajar secara efektif dan menarik. Kita bisa memperoleh akses ke kelas yang lebih beragam dan lebih cepat, serta dapat mengontrol perkembangan ini secara lebih baik dengan kebijakan yang tepat. Tetapi juga ada risiko, seperti ketidaknyamanan terhadap hak privasi siswa dan konsekuensinya untuk pendidikan tradisional. Oleh karena itu
+
+========================================================================
+EKSPERIMEN 10
+========================================================================
+Kategori    : System Prompt
+Varian      : Dosen akademik
+Temperature : 0.7
+Top-p       : 0.9
+
+PROMPT:
+Jelaskan konsep diffusion model dalam maksimal tiga kalimat.
+
+JAWABAN:
+Di dunia modern, teknologi machine learning telah menciptakan banyak aplikasi berbasis data yang mendukung berbagai kebutuhan pengambilan keputusan. Salah satu model terbaru dalam kategori tersebut adalah diffusion model, yang merupakan salah satu cara unik untuk memproses dan menghasilkan representasi data kompleks.
+
+Pertama, kita dapat menyebutkan bahwa diffusion model adalah algoritma yang melibatkan proses iteratif untuk mengubah representasi awal menjadi representasi baru. Dalam hal ini, proses ini dilakukan secara bertah
+
+========================================================================
+EKSPERIMEN 11
+========================================================================
+Kategori    : System Prompt
+Varian      : Tutor pemula
+Temperature : 0.7
+Top-p       : 0.9
+
+PROMPT:
+Jelaskan konsep diffusion model dalam maksimal tiga kalimat.
+
+JAWABAN:
+Di masa lalu, orang percaya bahwa perubahan cuaca dan iklim di bumi disebabkan oleh angin dan hujan. Namun, dengan penemuan alamiah dan teori-teori baru, seperti diffusion model, kita dapat memahami lebih dalam tentang bagaimana iklim dan cuaca di seluruh dunia berubah. 
+
+Konsep ini menyatakan bahwa suhu dan kelembaban udara tidak hanya terpengaruh langsung oleh angin dan hujan, tetapi juga oleh suhu dan kele
+
+========================================================================
+EKSPERIMEN 12
+========================================================================
+Kategori    : System Prompt
+Varian      : Asisten ringkas
+Temperature : 0.7
+Top-p       : 0.9
+
+PROMPT:
+Jelaskan konsep diffusion model dalam maksimal tiga kalimat.
+
+JAWABAN:
+Konsep diffusion model merujuk pada metode dalam pemodelan kecerdasan buatan yang mempertimbangkan bagaimana informasi atau kepentingan diterima oleh individu di dalam suatu grup. Model ini menggabungkan pendekatan diffusion of innovations dengan algoritma neural network, sehingga dapat menganalisis dan menyesuaikan dampak informasi berdasarkan lingkungan dan situasi tertentu.
+

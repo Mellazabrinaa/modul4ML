@@ -1,0 +1,14 @@
+﻿question,before_lora,after_lora
+Apa yang dimaksud dengan LoRA?,"LoRA adalah singkatan dari Low-Rank Adaptation. Ini adalah teknik pengembangan model generatif seperti GPT-3 yang memungkinkan penyesuaian model secara lebih efisien dibandingkan dengan metode lainnya. 
+
+Dalam LoRA, model generatif didekomposisi menjadi beberapa bagian (low-rank) yang lebih kecil. Setelah itu, model ini digunakan untuk menghasilkan output, sementara bagian","LoRA adalah singkatan dari Low-Rank Adaptation. Ini adalah teknik pengembangan model generatif seperti GPT-3 yang memungkinkan penyesuaian model secara lebih efisien daripada metode lainnya. Dalam LoRA, model dikompresi ke level rendah rank (misalnya 16) dan kemudian diperbarui melalui iterasi. Hal ini memungkinkan model untuk mengambil"
+Jelaskan konsep diffusion model secara singkat.,"Konsep diffusion model adalah metode dalam pembelajaran generatif yang menggunakan teknik ""diffusion"" untuk menghasilkan representasi data yang lebih kompleks dari data asli. Ini melibatkan beberapa langkah utama:
+
+1. **Pembentukan Model Base**: Awalnya, kita membuat model base yang mampu memproses data asli. Ini biasanya berupa model generatif seperti generasi teks atau gambar.
+
+2. **Pembent","Konsep diffusion model adalah metode dalam pembelajaran generatif yang menggunakan teknik ""diffusion"" untuk menghasilkan representasi data yang lebih kompleks dari data asli. Ini melibatkan beberapa langkah utama:
+
+1. **Pembentukan Model Base**: Awalnya, kita membuat model base yang mampu memproses data asli.
+
+2. **Pembentukan Model Diffusion**: Kemudian, kita membuat model diffusion yang berfungsi"
+Apa yang dimaksud dengan RAG?,"RAG adalah singkatan dari Retrieval-Augmented Generation. Ini adalah teknologi generatif yang menggunakan data yang telah diambil (retrieve) untuk membantu proses generasi. Dalam RAG, model generatif seperti GPT atau BERT digunakan untuk menghasilkan konten baru berdasarkan informasi yang diberikan, sementara data yang digunakan untuk generasi tersebut diambil dari database atau sumber lain. Ini memungkinkan model untuk mencipt","RAG adalah singkatan dari Retrieval-Augmented Generation. Ini adalah teknologi generatif yang menggunakan data yang telah diambil (retrieve) untuk membantu proses generasi. Dalam RAG, model generatif seperti GPT atau T5 memeriksa data yang telah diambil sebelumnya untuk mendapatkan informasi relevan sebelum membuat prediksi atau generasi output."

@@ -1,0 +1,242 @@
+[
+  {
+    "instruction": "Jelaskan secara singkat apa itu generative AI.",
+    "answer": "Generative AI adalah cabang kecerdasan buatan yang mampu menghasilkan konten baru seperti teks, gambar, audio, atau video berdasarkan pola yang dipelajari dari data."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan generative AI? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Generative AI adalah cabang kecerdasan buatan yang mampu menghasilkan konten baru seperti teks, gambar, audio, atau video berdasarkan pola yang dipelajari dari data."
+  },
+  {
+    "instruction": "Terangkan konsep generative AI dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Generative AI adalah cabang kecerdasan buatan yang mampu menghasilkan konten baru seperti teks, gambar, audio, atau video berdasarkan pola yang dipelajari dari data."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu large language model.",
+    "answer": "Large language model atau LLM adalah model bahasa berukuran besar yang dilatih pada data teks dalam jumlah sangat banyak untuk memahami dan menghasilkan bahasa manusia."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan large language model? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Large language model atau LLM adalah model bahasa berukuran besar yang dilatih pada data teks dalam jumlah sangat banyak untuk memahami dan menghasilkan bahasa manusia."
+  },
+  {
+    "instruction": "Terangkan konsep large language model dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Large language model atau LLM adalah model bahasa berukuran besar yang dilatih pada data teks dalam jumlah sangat banyak untuk memahami dan menghasilkan bahasa manusia."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu prompt engineering.",
+    "answer": "Prompt engineering adalah proses merancang instruksi yang jelas dan efektif agar model AI menghasilkan keluaran yang sesuai dengan tujuan pengguna."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan prompt engineering? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Prompt engineering adalah proses merancang instruksi yang jelas dan efektif agar model AI menghasilkan keluaran yang sesuai dengan tujuan pengguna."
+  },
+  {
+    "instruction": "Terangkan konsep prompt engineering dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Prompt engineering adalah proses merancang instruksi yang jelas dan efektif agar model AI menghasilkan keluaran yang sesuai dengan tujuan pengguna."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu diffusion model.",
+    "answer": "Diffusion model adalah model generatif yang belajar menghasilkan data dengan membalik proses penambahan noise secara bertahap sampai kembali menjadi data bermakna."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan diffusion model? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Diffusion model adalah model generatif yang belajar menghasilkan data dengan membalik proses penambahan noise secara bertahap sampai kembali menjadi data bermakna."
+  },
+  {
+    "instruction": "Terangkan konsep diffusion model dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Diffusion model adalah model generatif yang belajar menghasilkan data dengan membalik proses penambahan noise secara bertahap sampai kembali menjadi data bermakna."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu transformer.",
+    "answer": "Transformer adalah arsitektur jaringan saraf yang menggunakan mekanisme attention untuk memahami hubungan antar token dalam urutan data secara efisien."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan transformer? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Transformer adalah arsitektur jaringan saraf yang menggunakan mekanisme attention untuk memahami hubungan antar token dalam urutan data secara efisien."
+  },
+  {
+    "instruction": "Terangkan konsep transformer dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Transformer adalah arsitektur jaringan saraf yang menggunakan mekanisme attention untuk memahami hubungan antar token dalam urutan data secara efisien."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu tokenizer.",
+    "answer": "Tokenizer adalah komponen yang mengubah teks menjadi potongan kecil yang disebut token agar bisa diproses oleh model bahasa."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan tokenizer? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Tokenizer adalah komponen yang mengubah teks menjadi potongan kecil yang disebut token agar bisa diproses oleh model bahasa."
+  },
+  {
+    "instruction": "Terangkan konsep tokenizer dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Tokenizer adalah komponen yang mengubah teks menjadi potongan kecil yang disebut token agar bisa diproses oleh model bahasa."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu fine-tuning.",
+    "answer": "Fine-tuning adalah proses melatih ulang model yang sudah ada menggunakan dataset yang lebih spesifik agar performanya lebih baik pada tugas tertentu."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan fine-tuning? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Fine-tuning adalah proses melatih ulang model yang sudah ada menggunakan dataset yang lebih spesifik agar performanya lebih baik pada tugas tertentu."
+  },
+  {
+    "instruction": "Terangkan konsep fine-tuning dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Fine-tuning adalah proses melatih ulang model yang sudah ada menggunakan dataset yang lebih spesifik agar performanya lebih baik pada tugas tertentu."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu LoRA.",
+    "answer": "LoRA atau Low-Rank Adaptation adalah teknik fine-tuning efisien yang menambahkan parameter kecil pada model besar tanpa melatih semua bobot model."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan LoRA? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "LoRA atau Low-Rank Adaptation adalah teknik fine-tuning efisien yang menambahkan parameter kecil pada model besar tanpa melatih semua bobot model."
+  },
+  {
+    "instruction": "Terangkan konsep LoRA dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "LoRA atau Low-Rank Adaptation adalah teknik fine-tuning efisien yang menambahkan parameter kecil pada model besar tanpa melatih semua bobot model."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu QLoRA.",
+    "answer": "QLoRA adalah pengembangan LoRA yang menggabungkan quantization sehingga fine-tuning model besar bisa dilakukan dengan penggunaan memori yang lebih kecil."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan QLoRA? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "QLoRA adalah pengembangan LoRA yang menggabungkan quantization sehingga fine-tuning model besar bisa dilakukan dengan penggunaan memori yang lebih kecil."
+  },
+  {
+    "instruction": "Terangkan konsep QLoRA dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "QLoRA adalah pengembangan LoRA yang menggabungkan quantization sehingga fine-tuning model besar bisa dilakukan dengan penggunaan memori yang lebih kecil."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu RLHF.",
+    "answer": "RLHF atau Reinforcement Learning from Human Feedback adalah metode alignment model dengan memanfaatkan umpan balik manusia untuk meningkatkan kualitas respons."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan RLHF? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "RLHF atau Reinforcement Learning from Human Feedback adalah metode alignment model dengan memanfaatkan umpan balik manusia untuk meningkatkan kualitas respons."
+  },
+  {
+    "instruction": "Terangkan konsep RLHF dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "RLHF atau Reinforcement Learning from Human Feedback adalah metode alignment model dengan memanfaatkan umpan balik manusia untuk meningkatkan kualitas respons."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu DPO.",
+    "answer": "DPO atau Direct Preference Optimization adalah metode pelatihan berbasis preferensi yang lebih sederhana dibanding RLHF karena tidak memerlukan reward model terpisah."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan DPO? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "DPO atau Direct Preference Optimization adalah metode pelatihan berbasis preferensi yang lebih sederhana dibanding RLHF karena tidak memerlukan reward model terpisah."
+  },
+  {
+    "instruction": "Terangkan konsep DPO dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "DPO atau Direct Preference Optimization adalah metode pelatihan berbasis preferensi yang lebih sederhana dibanding RLHF karena tidak memerlukan reward model terpisah."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu RAG.",
+    "answer": "RAG atau Retrieval-Augmented Generation adalah pendekatan yang menggabungkan pencarian informasi eksternal dengan generasi teks agar jawaban model lebih akurat dan kontekstual."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan RAG? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "RAG atau Retrieval-Augmented Generation adalah pendekatan yang menggabungkan pencarian informasi eksternal dengan generasi teks agar jawaban model lebih akurat dan kontekstual."
+  },
+  {
+    "instruction": "Terangkan konsep RAG dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "RAG atau Retrieval-Augmented Generation adalah pendekatan yang menggabungkan pencarian informasi eksternal dengan generasi teks agar jawaban model lebih akurat dan kontekstual."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu overfitting.",
+    "answer": "Overfitting adalah kondisi saat model terlalu cocok dengan data latih sehingga performanya menurun ketika diuji pada data baru."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan overfitting? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Overfitting adalah kondisi saat model terlalu cocok dengan data latih sehingga performanya menurun ketika diuji pada data baru."
+  },
+  {
+    "instruction": "Terangkan konsep overfitting dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Overfitting adalah kondisi saat model terlalu cocok dengan data latih sehingga performanya menurun ketika diuji pada data baru."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu underfitting.",
+    "answer": "Underfitting adalah kondisi saat model terlalu sederhana sehingga gagal menangkap pola penting pada data latih maupun data uji."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan underfitting? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Underfitting adalah kondisi saat model terlalu sederhana sehingga gagal menangkap pola penting pada data latih maupun data uji."
+  },
+  {
+    "instruction": "Terangkan konsep underfitting dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Underfitting adalah kondisi saat model terlalu sederhana sehingga gagal menangkap pola penting pada data latih maupun data uji."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu temperature pada LLM.",
+    "answer": "Temperature pada LLM mengatur tingkat kerandoman keluaran model; nilai rendah membuat jawaban lebih deterministik, sedangkan nilai tinggi membuat jawaban lebih beragam."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan temperature pada LLM? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Temperature pada LLM mengatur tingkat kerandoman keluaran model; nilai rendah membuat jawaban lebih deterministik, sedangkan nilai tinggi membuat jawaban lebih beragam."
+  },
+  {
+    "instruction": "Terangkan konsep temperature pada LLM dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Temperature pada LLM mengatur tingkat kerandoman keluaran model; nilai rendah membuat jawaban lebih deterministik, sedangkan nilai tinggi membuat jawaban lebih beragam."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu top-p sampling.",
+    "answer": "Top-p sampling adalah teknik pemilihan token yang membatasi pilihan pada kumpulan token dengan probabilitas kumulatif tertentu agar keluaran lebih terkontrol."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan top-p sampling? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Top-p sampling adalah teknik pemilihan token yang membatasi pilihan pada kumpulan token dengan probabilitas kumulatif tertentu agar keluaran lebih terkontrol."
+  },
+  {
+    "instruction": "Terangkan konsep top-p sampling dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Top-p sampling adalah teknik pemilihan token yang membatasi pilihan pada kumpulan token dengan probabilitas kumulatif tertentu agar keluaran lebih terkontrol."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu system prompt.",
+    "answer": "System prompt adalah instruksi tingkat awal yang mendefinisikan peran, gaya, dan perilaku model selama percakapan."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan system prompt? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "System prompt adalah instruksi tingkat awal yang mendefinisikan peran, gaya, dan perilaku model selama percakapan."
+  },
+  {
+    "instruction": "Terangkan konsep system prompt dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "System prompt adalah instruksi tingkat awal yang mendefinisikan peran, gaya, dan perilaku model selama percakapan."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu classifier-free guidance.",
+    "answer": "Classifier-free guidance adalah teknik pada diffusion model untuk mengontrol seberapa kuat hasil generasi mengikuti prompt yang diberikan."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan classifier-free guidance? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Classifier-free guidance adalah teknik pada diffusion model untuk mengontrol seberapa kuat hasil generasi mengikuti prompt yang diberikan."
+  },
+  {
+    "instruction": "Terangkan konsep classifier-free guidance dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Classifier-free guidance adalah teknik pada diffusion model untuk mengontrol seberapa kuat hasil generasi mengikuti prompt yang diberikan."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu negative prompt.",
+    "answer": "Negative prompt adalah instruksi tambahan yang memberi tahu model tentang elemen yang tidak diinginkan dalam hasil generasi."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan negative prompt? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Negative prompt adalah instruksi tambahan yang memberi tahu model tentang elemen yang tidak diinginkan dalam hasil generasi."
+  },
+  {
+    "instruction": "Terangkan konsep negative prompt dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Negative prompt adalah instruksi tambahan yang memberi tahu model tentang elemen yang tidak diinginkan dalam hasil generasi."
+  },
+  {
+    "instruction": "Jelaskan secara singkat apa itu stable diffusion.",
+    "answer": "Stable Diffusion adalah model generatif gambar berbasis diffusion yang dapat menghasilkan gambar dari deskripsi teks secara efisien."
+  },
+  {
+    "instruction": "Apa yang dimaksud dengan stable diffusion? Berikan penjelasan yang jelas untuk mahasiswa pemula.",
+    "answer": "Stable Diffusion adalah model generatif gambar berbasis diffusion yang dapat menghasilkan gambar dari deskripsi teks secara efisien."
+  },
+  {
+    "instruction": "Terangkan konsep stable diffusion dalam 2 sampai 3 kalimat menggunakan Bahasa Indonesia yang mudah dipahami.",
+    "answer": "Stable Diffusion adalah model generatif gambar berbasis diffusion yang dapat menghasilkan gambar dari deskripsi teks secara efisien."
+  }
+]

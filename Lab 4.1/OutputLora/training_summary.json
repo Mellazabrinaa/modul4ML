@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "dataset_size": 60,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "epochs": 1,
+  "max_length": 128,
+  "final_loss": 2.7533307671546936,
+  "device": "cuda"
+}
